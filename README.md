@@ -3,7 +3,7 @@ Repo de manejo de version de keycloak como control de acceso al artefacto
 # Version
 keycloak 21.1.1 
 # Comandos de despliegue en producción 
-El despliegue se hace bajo el protocolo HTTP, para el HTTPS seguir la documentación de Keycloack para añadir el certificado
+El despliegue se hace bajo el protocolo HTTP, para el HTTPS seguir la documentación de Keycloack para añadir el certificado https://www.keycloak.org/docs/21.1.1/server_admin/
 ## Windows 
 1. ingresar a la carpeta /keycloak 21.1.1 
 2.  igresar los comandos 
