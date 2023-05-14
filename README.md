@@ -6,9 +6,10 @@ keycloak 21.1.1
 El despliegue se hace bajo el protocolo HTTP, para el HTTPS seguir la documentación de Keycloack para añadir el certificado
 ## Windows 
 1. ingresar a la carpeta /keycloak 21.1.1 
-2.  igresar el comando 
+2.  igresar los comandos 
 
 ```bash
+./bin kc.sh build
 ./bin kc.sh start --hostname-strict=false --http-enabled=true
 ```
 ## Linux o unix based systems 
@@ -16,5 +17,6 @@ El despliegue se hace bajo el protocolo HTTP, para el HTTPS seguir la documentac
 2.  igresar el comando 
 
 ```bash
+./bin kc.sh build
 ./bin kc.bat start --hostname-strict=false --http-enabled=true
 ```
